@@ -1,0 +1,10 @@
+ <div>
+ 
+ <h1>Task List</h1>
+  <p>Title: {{this.editTask.title}}</p>
+  <p> Description: {{this.editTask.description}}</p>
+  <button (click)= "onEditTask(task._id, task.title,task.description)">Edit</button>
+  <button (click)= "onDeleteTask(task._id)">Delete</button>
+
+  
+  </div>
